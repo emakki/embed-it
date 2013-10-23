@@ -1,0 +1,147 @@
+#sShow, .sShow,  ul.list-show, ul.tabs-show {
+	height: 330px; 
+	min-height: 300px; 
+	width: 700px; 
+	overflow: hidden; 
+	overflow-y: hidden; 
+	overflow-x: hidden;
+	}
+
+#aShow, ul.alist-show {
+	height: 375px; 
+	min-height: 375px; 
+	width: 500px; 
+	overflow: hidden; 
+	overflow-y: hidden; 
+	overflow-x: hidden;
+	}
+
+li.accor-title  {
+	background: url("../i/sprite_master.png") repeat-x scroll 0 -1260px transparent;
+	border: 1px solid #CCC;
+	list-style: none;
+	margin: 0 !important;
+	padding: 0;
+	}
+
+	
+ul.list-show, ul.alist-show , .tabs-show, .accor-show {
+	position: relative; 
+	list-style-type: none;
+	list-style-image: none;
+	filter:inherit; 
+	margin-left: 0 !important;
+	}
+
+.panel, .stabs {
+	position: absolute; 
+	display: inline; 
+	width: 680px; 
+	left: 0; 
+	top: 0; 
+	min-height: 300px; 
+	height: 330px; 
+	overflow: hidden; 
+	overflow-y: hidden;
+	filter: inherit;
+	}
+
+.awpanel {
+	position: absolute; 
+	display: inline; 
+	width: 500px; 
+	left: 0; 
+	top: 0; 
+	min-height: 375px; 
+	height: 375px; 
+	overflow: hidden; 
+	overflow-y: hidden;
+	filter: inherit;
+	}
+	
+.panel > h3, .apanel > h3 {white-space: nowrap;}
+	
+.active, .tactive, .aactive, .aaactive {z-index: 100 !important;}
+	
+.slide-image, .tab-text, .accor-text { 
+	
+	float: left; 
+	margin-right: 5px;
+	padding: 5px;
+	}
+	
+.slide-thumb, .tab-title {
+	display:inline; 
+	padding: 0 5px 0 0;
+	}
+
+
+.accor-title {
+
+	padding: 0 5px 0 0;
+	}
+	
+
+.scrolling-text {
+	overflow-y:auto;
+	overflow-x: hidden;
+	max-height: 400px;
+	max-width: 700px;
+}
+
+#accordion {width: 700px; background-color: #fff;}
+#accordion.boxContainer h2.current {
+background: #ccc;
+cursor: default;
+}
+/* root element for horizontal accordion. decorated with rounded borders and gradient background image */
+#haccordion {
+	background-color: white;
+	padding:10px 0 10px 0px;
+    width:700px;
+    border:1px solid #ddd;
+    margin: 0 auto;
+	height: 330px !important;
+	min-height: 330px !important;
+	overflow: hidden;
+}
+
+/* horizontal accordion header */
+#haccordion img {
+    float:left;
+    margin-right:10px;
+    cursor:pointer;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+}
+
+/* currently active header */
+#haccordion img.current {
+    cursor:default;
+    opacity:1;
+    filter: alpha(opacity=100);
+}
+
+#haccordion div {
+    width:0px;
+    float:left;
+    display:none;
+    margin-right:10px;
+	height: 330px;
+}
+
+#haccordion div p {
+    width:190px !important;
+}
+
+blockquote {font-size:15px;color:#333; border: 1px solid #CCC; background-color:#EEE; margin:15px 25px;padding:15px;}
+
+.img-caption{
+border: 1px solid gray;
+margin: 0 auto;
+text-align: center;
+background-color: whiteSmoke;
+PADDING: 4px;
+margin: 3px;
+}
+
